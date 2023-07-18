@@ -1,0 +1,42 @@
+body{
+    background-color:beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+.webhead{
+    display: flex;
+    justify-content: center;
+}
+img{
+    align-items: center;
+    padding: 5px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+#contactcall{
+    border: none;
+    background-color:blueviolet;
+    border-radius: 20%;
+    font-size: 30px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.proud{
+    list-style-type: none;
+    margin: 0;
+    display: inline;
+}
+.About{
+    margin-top: 50px;
+    margin-left: 250px;
+    padding: 0%;
+}
+#overview{
+    font-size: 50px;
+}
+#introwrd{
+    margin-top: 0px;
+}
+.selfintro{
+    margin: 70px;
+}
