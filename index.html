@@ -11,6 +11,10 @@
 
     <!--custom css-->
     <link rel="stylesheet" href="style.css">
+
+    <!--JS file-->
+
+    <script src="script.js"></script>
 </head>
 <body>
         <!--Header Design-->
@@ -23,7 +27,8 @@
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#education">Education</a>
+            <a href="#portfolio">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -203,10 +208,184 @@
                 </div>
             </div>
         </div>
-        <div class="skill-left">
-            <h3>profesnal Skills</h3>
+
+        <!--professional skills-->
+        <div class="skill-right">
+            <h3>professinal Skills</h3>
+            <div class="professional">
+                <div class="outer">
+                    <div class="inner">
+                       <div id="number">
+                        70%
+                       </div>
+                    </div>
+                </div>
+                <h1 class="skill-text">Problem solving</h1>
+
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                width="160px" height="160px">
+                <defs>
+                    <linearGradient id="GradientColor">
+                        <stop offset="0%" stop-color="#e91e63"/>
+                        <stop offset="100%" stop-color="#673ab7"/>
+                    </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" strocke=-linecap=round/>
+            </svg>
+
+            </div>
+
+            <div class="professional2">
+                <div class="outer">
+                    <div class="inner">
+                       <div id="number">
+                        75%
+                       </div>
+                    </div>
+                </div>
+                <h1 class="skill-text">Communication</h1>
+
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                width="160px" height="160px">
+                <defs>
+                    <linearGradient id="GradientColor">
+                        <stop offset="0%" stop-color="#e91e63"/>
+                        <stop offset="100%" stop-color="#673ab7"/>
+                    </linearGradient>
+                </defs>
+                <circle id="prof2"  cx="80" cy="80" r="70" strocke=-linecap=round/>
+            </svg>
+
+            </div>
+
+            <div class="professional3">
+                <div class="outer">
+                    <div class="inner">
+                       <div id="number">
+                        99%
+                       </div>
+                    </div>
+                </div>
+                <h1 class="skill-text">Time Management</h1>
+
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                width="160px" height="160px">
+                <defs>
+                    <linearGradient id="GradientColor">
+                        <stop offset="0%" stop-color="#e91e63"/>
+                        <stop offset="100%" stop-color="#673ab7"/>
+                    </linearGradient>
+                </defs>
+                <circle id="prof3"  cx="80" cy="80" r="70" strocke=-linecap=round/>
+            </svg>
+
+            </div>
         </div>
     </div>
  </section>
+
+<!--Education section design-->
+
+<section class="education" id="education">
+    <h2 class="heading">My <span>Education</span></h2>
+
+    <div class="education-row">
+        <div class="education-column">
+
+            <div class="education-box">
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2019-2022</div>
+                        <h3>UG Degree-<span>BCA</span></h3>
+                        <P>Sree Saraswathi Thyagaraja College,<br/>Pollachi</P>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2017-2019</div>
+                        <h3>HSE-<span>XI-XII</span></h3>
+                        <P>Govt Higher Secondary School,Ramanathapuram</P>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2016-2017</div>
+                        <h3>SSLC-<span>X</span></h3>
+                        <P>Govt Higher Secondary School,<br/>Ramanathapuram</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--project section-->
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest<span>project</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/movielanding.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Movie-Landing webpage</h4>
+                <p>The Movie Landing Web Page Which Was Design Using HTML ,CSS, JavaScript<br/>
+                    100% responsive website which is suitable for all devices</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/Todolistprgimg.png" height="290px">
+            <div class="portfolio-layer">
+                <h4>Movie-Landing webpage</h4>
+                <p>The Movie Landing Web Page Which Was Design Using HTML ,CSS, JavaScript<br/>
+                    100% responsive website which is suitable for all devices</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/Todolistprgimg.png" height="290px">
+            <div class="portfolio-layer">
+                <h4>Movie-Landing webpage</h4>
+                <p>The Movie Landing Web Page Which Was Design Using HTML ,CSS, JavaScript<br/>
+                    100% responsive website which is suitable for all devices</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact page-->
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact<span>Me!</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<!--Footer Page-->
+<section class="footer">
+    <div class="footer-text">
+        <p>copyright &copy; 2023 by Anuroshan | All Rights Reserved</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</section>
 </body>
 </html>
