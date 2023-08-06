@@ -631,6 +631,11 @@ span{
         margin: .3rem 0 1rem;
     }
 }
+@media (max-width:443px){
+    #menu-icon{
+        margin-right: 7.5rem;
+    }
+}
 
 
 
