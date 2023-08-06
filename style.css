@@ -624,6 +624,12 @@ span{
         width: 280px;
     }
 }
+@media (max-width:405px){
+    .portfolio-layer p{
+        font-size: 1rem;
+        margin: .3rem 0 1rem;
+    }
+}
 
 
 
