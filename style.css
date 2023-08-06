@@ -78,7 +78,7 @@ section{
 }
 .home-content{
     font-size: 3.2rem;
-    font-weight: 700;
+    font-weight: 2000;
     flex: 0.5;
 }
 .home-content h3{
@@ -252,176 +252,6 @@ span{
 .skills-bar .bar .VSCODE{
     width: 95%;
     animation: 14s;
-}
-
-.professional{
-    margin-top: 6rem;
-    margin-left: 70%;
-    width: 160px;
-    height: 160px;
-    /*background: var(--second-bg-color);*/
-    position: relative;
-}
-.outer{
-    position: relative;
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    padding: 20px;
-    box-shadow: 0 0 .5rem #12f7ff;
-}
-.inner{
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 4px 4px 6px -1px #12f7ff,
-                inset -4px -4px 6px -1px #12f7ff,
-                -0.5px -0.5px 0px #12f7ff,
-                0.5px 0.5px 0px #12f7ff,
-                0px 12px 10px -10px #12f7ff 
-}
-#number{
-    font-weight: 600;
-    color: #fff;
-    letter-spacing: 1px;
-    position: absolute;
-    transform: translate(-50, -50%);
-}
-circle{
-    fill: none;
-    stroke: var(--main-color);
-    box-shadow: var(--neon-box-shadow);
-    stroke-width:20px ;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 150;
-    animation: anim 2s linear forwards;
-}
-svg{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.skill-text{
-    margin-top: 1rem;
-    margin-left: 2.5rem;
-}
-/*skill 2*/
-
-.professional2{
-    margin-top: 5rem;
-    margin-right: 70%;
-    margin-left: 6rem;
-    width: 160px;
-    height: 160px;
-    /*background: var(--second-bg-color);*/
-    position: relative;
-}
-.outer{
-    position: relative;
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    padding: 20px;
-    box-shadow: 0 0 .5rem #12f7ff;
-}
-.inner{
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 4px 4px 6px -1px #12f7ff,
-                inset -4px -4px 6px -1px #12f7ff,
-                -0.5px -0.5px 0px #12f7ff,
-                0.5px 0.5px 0px #12f7ff,
-                0px 12px 10px -10px #12f7ff 
-}
-#number{
-    font-weight: 600;
-    color: #fff;
-    letter-spacing: 1px;
-    position: absolute;
-    transform: translate(-50, -50%);
-}
-#prof2{
-    fill: none;
-    stroke: var(--main-color);
-    box-shadow: var(--neon-box-shadow);
-    stroke-width:20px ;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 100;
-    animation: anim 2s linear forwards;
-}
-svg{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.skill-text{
-    margin-top: 1rem;
-    margin-left: 2.5rem;
-}
-
-/*prof skilll 2*/
-
-.professional3{
-    margin-top: 5rem;
-    margin-right: 70%;
-    margin-left: 70%;
-    width: 160px;
-    height: 160px;
-    /*background: var(--second-bg-color);*/
-    position: relative;
-}
-.outer{
-    position: relative;
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    padding: 20px;
-    box-shadow: 0 0 .5rem #12f7ff;
-}
-.inner{
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 4px 4px 6px -1px #12f7ff,
-                inset -4px -4px 6px -1px #12f7ff,
-                -0.5px -0.5px 0px #12f7ff,
-                0.5px 0.5px 0px #12f7ff,
-                0px 12px 10px -10px #12f7ff 
-}
-#number{
-    font-weight: 600;
-    color: #fff;
-    letter-spacing: 1px;
-    position: absolute;
-    transform: translate(-50, -50%);
-}
-#prof3{
-    fill: none;
-    stroke: var(--main-color);
-    box-shadow: var(--neon-box-shadow);
-    stroke-width:20px ;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 40;
-    animation: anim 2s linear forwards;
-}
-svg{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.skill-text{
-    margin-top: 1rem;
-    margin-left: 2.5rem;
 }
 .education{
     background: var(--second-bg-color);
@@ -628,6 +458,9 @@ svg{
     section{
         padding: 10rem 3% 2rem;
     }
+    .contact{
+        min-height: auto;
+    }
     .footer{
         padding: 2rem 3%;
     }
@@ -684,28 +517,6 @@ svg{
     .education{
         margin-top: 2.5rem;
     }
-    .skill-right .professional{
-        margin-left: 70%;
-    }
-    .skill-right .professional3{
-        margin-left: 70%;
-    }
-}
-@media (max-width:939px){
-        .professional{
-            margin-left: 60%;
-        }
-        .professional3{
-            margin-left: 60%;
-        }
-}
-@media (max-width:939px){
-    .professional{
-        margin-left: 50%;
-    }
-    .professional3{
-        margin-left: 50%;
-    } 
 }
 @media (max-width:718px){
     .education-box{
@@ -754,20 +565,8 @@ svg{
         height: 100px;
         width: 400px;
     }
-    .skill-right{
-        padding: 60px;
-        margin-right: 5rem;
-    }
 }
-@media (max-width:381px){
-    .skill-right.profesnalskill-set
-          {
-            text-align: center;
-          }
-    .profesnalskill-set.professional2{
-            margin-left: 5rem;
-         }
-    }
+
 @media (max-width:406px){
     .education-content .content{
         height: 100px;
@@ -777,4 +576,54 @@ svg{
         font-size: 15rem;
     }
 }
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .contact form .input-box input{
+        width: 100%;
+    }
+}
+@media (max-width:365px){
+    .home-img img{
+        width: 90vw;
+    }
+    .abt-img img{
+        width: 90vw;
+    }
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .portfolio-layer h4{
+        font-size: 1rem;
+    }
+    .portfolio-layer p{
+        font-size: 1rem;
+        margin: .3rem 0 1rem;
+    }
+    .education-content .content{
+        height: 100px;
+        width: 300px;
+    }
+    .skill-left .skills-bar .bar{
+        width: 90%;
+        height: 10px;
+        background-color: var(--second-bg-color);
+        border-radius: 25px;
+        margin-top: 10px;
+        position: relative;
+    }
+}
+@media (max-width:419px){
+    .education-content .content{
+        height: 100px;
+        width: 280px;
+    }
+}
+
+
 
