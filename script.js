@@ -36,3 +36,19 @@ window.onscroll=()=>{
    menuIcon.classList.remove('bx-x');
   navbar.classList.remove('active');
 };
+  /*========Scroll reveal======*/
+ScrollReveal({
+    reset:true,
+    distance:'80px',
+    duration:2000,
+    delay:200
+});
+
+ScrollReveal().reveal('.home-content, .heading', {origin:'top'});
+
+/*========Light mode======*/
+
+function myFunction(){
+  var element=document.body;
+  element.classList.toggle("light-mode");
+}
