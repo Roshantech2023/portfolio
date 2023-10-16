@@ -40,7 +40,7 @@
             <h3>And I'm a<span> Full stack Developer</span></h3>
             <p>Just Guy Who Loves To code</p>
             <div class="social-media">
-                <a href="https://www.linkedin.com/feed/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/anuroshanb89/"><i class='bx bxl-linkedin'></i></a>
                 <a href="#"><i class='bx bxl-twitter' ></i></a>
                 <a href="#"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://github.com/Roshantech2023"><i class='bx bxl-github' ></i></a>
@@ -285,6 +285,16 @@
                     <a href="https://roshandeveloper.netlify.app/"><i class='bx bx-link-external' ></i></a>
             </div>
         </div>
+
+        <div class="portfolio-box">
+            <img src="images/pwdgenrator.png" height="290px">
+            <div class="portfolio-layer">
+                <h4>Random pasword generator</h4>
+                <p>The Random Password Generator page Which Was Design Using HTML ,CSS, JavaScript<br/>
+                    used to generate new random strong pasword and we can copy also</p>
+                    <a href="https://github.com/Roshantech2023/pasword-generator.git"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -293,10 +303,10 @@
 <section class="contact" id="contact">
     <h2 class="heading">Contact<span>Me!</span></h2>
 
-    <form action="#">
+    <form onsubmit="sendEmail(); reset(); return false;">
         <div class="input-box">
             <input type="text" placeholder="Full Name">
-            <input type="text" placeholder="Email Address">
+            <input type="text" placeholder="Email Address" id="user-email">
         </div>
         <div class="input-box">
             <input type="number" placeholder="Mobile Number">
@@ -319,5 +329,20 @@
         <img src="images/moon-solid-24.png" id="icon">
     </div>
 </section>
+<script src=" https://smtpjs.com/v3/smtp.js">
+    function sendEmail(){
+  Email.send({
+    Host : "smtp.gmail.com",
+    Username : "anuroshan886@gmail.com",
+    Password : "9788921322",
+    To : 'anuroshan491@gmail.com',
+    From : document.getElementById("user-email").value,
+    Subject : "New contact form enquery",
+    Body : "And this is the body"
+  }).then(
+    message => alert(message)
+  );
+}
+</script>
 </body>
 </html>
