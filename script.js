@@ -46,9 +46,5 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading', {origin:'top'});
 
-/*========Light mode======*/
+/*========Email send======*/
 
-function myFunction(){
-  var element=document.body;
-  element.classList.toggle("light-mode");
-}
